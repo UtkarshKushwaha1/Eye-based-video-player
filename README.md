@@ -1,1 +1,2 @@
-# Eye-based-video-player
+# EYE BASED VIDEO PLAYER
+A smart video player made with Haarcascades and OpenCV.
