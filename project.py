@@ -1,11 +1,11 @@
 import cv2
 import numpy as np
 import vlc
-import time
 
-video = vlc.MediaPlayer("insert here the name of video which you want to play");
+video = vlc.MediaPlayer("Shaun the Sheep.mp4");
 
 eye_cascade = cv2.CascadeClassifier('haarcascades/haarcascade_eye.xml')
+
 
 coordinate_list=[None]
 cap = cv2.VideoCapture(0)
